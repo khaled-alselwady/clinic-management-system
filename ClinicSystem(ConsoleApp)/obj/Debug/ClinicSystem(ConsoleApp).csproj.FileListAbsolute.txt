@@ -1,0 +1,12 @@
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(ConsoleApp).exe.config
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(ConsoleApp).exe
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(ConsoleApp).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(BusinessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(DataAccessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(BusinessLayer).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\bin\Debug\ClinicSystem(DataAccessLayer).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\obj\Debug\ClinicSystem(ConsoleApp).csproj.AssemblyReference.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\obj\Debug\ClinicSystem(ConsoleApp).csproj.CoreCompileInputs.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\obj\Debug\ClinicSystem(ConsoleApp).csproj.CopyComplete
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\obj\Debug\ClinicSystem(ConsoleApp).exe
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(ConsoleApp)\obj\Debug\ClinicSystem(ConsoleApp).pdb

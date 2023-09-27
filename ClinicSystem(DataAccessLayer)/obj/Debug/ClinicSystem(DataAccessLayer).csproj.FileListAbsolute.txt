@@ -1,0 +1,6 @@
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\bin\Debug\ClinicSystem(DataAccessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\bin\Debug\ClinicSystem(DataAccessLayer).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\obj\Debug\ClinicSystem(DataAccessLayer).csproj.AssemblyReference.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\obj\Debug\ClinicSystem(DataAccessLayer).csproj.CoreCompileInputs.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\obj\Debug\ClinicSystem(DataAccessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(DataAccessLayer)\obj\Debug\ClinicSystem(DataAccessLayer).pdb

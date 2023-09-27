@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1BC80EC-4A16-477F-A9E3-BCE8E90E7732}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClinicSystem_WindowsForms_</RootNamespace>
+    <AssemblyName>ClinicSystem%28WindowsForms%29</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppointmentsForms\frmAddEditAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentsForms\frmAddEditAppointment.Designer.cs">
+      <DependentUpon>frmAddEditAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentsForms\frmAppointments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentsForms\frmAppointments.Designer.cs">
+      <DependentUpon>frmAppointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentsForms\frmShowAppointmentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentsForms\frmShowAppointmentDetails.Designer.cs">
+      <DependentUpon>frmShowAppointmentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsChangeHeaderColorOfDataGridView.cs" />
+    <Compile Include="clsDragForm.cs" />
+    <Compile Include="clsOpenChildForm.cs" />
+    <Compile Include="DashboardForms\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForms\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsForms\frmAddEditDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsForms\frmAddEditDoctor.Designer.cs">
+      <DependentUpon>frmAddEditDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsForms\frmDoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsForms\frmDoctors.Designer.cs">
+      <DependentUpon>frmDoctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccessDenied.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccessDenied.Designer.cs">
+      <DependentUpon>frmAccessDenied.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForms\frmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\frmLoginScreen.Designer.cs">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalRecordsForms\frmAddEditMedicalRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalRecordsForms\frmAddEditMedicalRecord.Designer.cs">
+      <DependentUpon>frmAddEditMedicalRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalRecordsForms\frmShowAllMedicalRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalRecordsForms\frmShowAllMedicalRecords.Designer.cs">
+      <DependentUpon>frmShowAllMedicalRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientsForms\frmAddEditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientsForms\frmAddEditPatient.Designer.cs">
+      <DependentUpon>frmAddEditPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientsForms\frmPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientsForms\frmPatients.Designer.cs">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowMedicalRecordsOfPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowMedicalRecordsOfPatient.Designer.cs">
+      <DependentUpon>frmShowMedicalRecordsOfPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowPaymentsOfPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowPaymentsOfPatient.Designer.cs">
+      <DependentUpon>frmShowPaymentsOfPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowPrescriptionsOfPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientsForms\frmShowPrescriptionsOfPatient.Designer.cs">
+      <DependentUpon>frmShowPrescriptionsOfPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentForms\frmAddEditPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForms\frmAddEditPayment.Designer.cs">
+      <DependentUpon>frmAddEditPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentForms\frmPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForms\frmPayments.Designer.cs">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrescriptionsForms\frmAddEditPrescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrescriptionsForms\frmAddEditPrescription.Designer.cs">
+      <DependentUpon>frmAddEditPrescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrescriptionsForms\frmShowAllPrescriptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrescriptionsForms\frmShowAllPrescriptions.Designer.cs">
+      <DependentUpon>frmShowAllPrescriptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucAddEditPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAddEditPerson.Designer.cs">
+      <DependentUpon>ucAddEditPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucShowPersonDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucShowPersonDetails.Designer.cs">
+      <DependentUpon>ucShowPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTemplateDGV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTemplateDGV.Designer.cs">
+      <DependentUpon>ucTemplateDGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTemplateDGVAndSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTemplateDGVAndSearch.Designer.cs">
+      <DependentUpon>ucTemplateDGVAndSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForms\frmAddEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForms\frmAddEditUser.Designer.cs">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForms\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForms\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AppointmentsForms\frmAddEditAppointment.resx">
+      <DependentUpon>frmAddEditAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentsForms\frmAppointments.resx">
+      <DependentUpon>frmAppointments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentsForms\frmShowAppointmentDetails.resx">
+      <DependentUpon>frmShowAppointmentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForms\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsForms\frmAddEditDoctor.resx">
+      <DependentUpon>frmAddEditDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsForms\frmDoctors.resx">
+      <DependentUpon>frmDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccessDenied.resx">
+      <DependentUpon>frmAccessDenied.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\frmLoginScreen.resx">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalRecordsForms\frmAddEditMedicalRecord.resx">
+      <DependentUpon>frmAddEditMedicalRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalRecordsForms\frmShowAllMedicalRecords.resx">
+      <DependentUpon>frmShowAllMedicalRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientsForms\frmAddEditPatient.resx">
+      <DependentUpon>frmAddEditPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientsForms\frmPatients.resx">
+      <DependentUpon>frmPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientsForms\frmShowMedicalRecordsOfPatient.resx">
+      <DependentUpon>frmShowMedicalRecordsOfPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientsForms\frmShowPaymentsOfPatient.resx">
+      <DependentUpon>frmShowPaymentsOfPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientsForms\frmShowPrescriptionsOfPatient.resx">
+      <DependentUpon>frmShowPrescriptionsOfPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentForms\frmAddEditPayment.resx">
+      <DependentUpon>frmAddEditPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentForms\frmPayments.resx">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrescriptionsForms\frmAddEditPrescription.resx">
+      <DependentUpon>frmAddEditPrescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrescriptionsForms\frmShowAllPrescriptions.resx">
+      <DependentUpon>frmShowAllPrescriptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucAddEditPerson.resx">
+      <DependentUpon>ucAddEditPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucShowPersonDetails.resx">
+      <DependentUpon>ucShowPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTemplateDGV.resx">
+      <DependentUpon>ucTemplateDGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTemplateDGVAndSearch.resx">
+      <DependentUpon>ucTemplateDGVAndSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForms\frmAddEditUser.resx">
+      <DependentUpon>frmAddEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForms\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clinic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicSystem%28BusinessLayer%29\ClinicSystem%28BusinessLayer%29.csproj">
+      <Project>{270fd640-b84c-4c55-837a-55e0f1fbf2af}</Project>
+      <Name>ClinicSystem%28BusinessLayer%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\bin\Debug\ClinicSystem(BusinessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\bin\Debug\ClinicSystem(BusinessLayer).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\bin\Debug\ClinicSystem(DataAccessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\bin\Debug\ClinicSystem(DataAccessLayer).pdb
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\obj\Debug\ClinicSystem(BusinessLayer).csproj.AssemblyReference.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\obj\Debug\ClinicSystem(BusinessLayer).csproj.CoreCompileInputs.cache
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\obj\Debug\ClinicSystem(BusinessLayer).csproj.CopyComplete
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\obj\Debug\ClinicSystem(BusinessLayer).dll
+D:\Learning Programming\C# & Database Connectivity\Clinic System\ClinicSystem(BusinessLayer)\obj\Debug\ClinicSystem(BusinessLayer).pdb
