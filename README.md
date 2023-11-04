@@ -9,5 +9,12 @@ The **Clinic Management System** is a powerful and user-friendly solution design
 - **Billing and Invoicing:** Generate bills, invoices, and receipts for services rendered to patients.
 - **Prescription Management:** Create, update, and track patient prescriptions and medications.
 
+## Technologies Used:
+- **Framework:** .NET Windows Forms (C#)
+- **Database:** SQL Server
+- **Data Access:** ADO.NET
+- **User Interface:** Windows Forms (WinForms)
+- **Development Environment:** Microsoft Visual Studio
+
 Explore our demo [here](https://drive.google.com/file/d/10itCDB1zV2gzugACtYsKa8pZRaXR0_Ny/view?usp=sharing) and witness the future of efficient clinic management!
 
