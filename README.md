@@ -1,6 +1,6 @@
 # Clinic Management System
 
-The **Clinic Management System** is a powerful and user-friendly solution designed to streamline the operations of medical clinics and healthcare facilities. This comprehensive desktop application offers a range of features to manage patient appointments, electronic health records, staff scheduling, billing, and more. Our system enhances the efficiency of healthcare providers, ensuring seamless patient care and administrative processes.
+The **Clinic Management System** is a powerful and user-friendly desktop solution designed to streamline the operations of medical clinics and healthcare facilities. This comprehensive desktop application offers a range of features to manage patient appointments, electronic health records, staff scheduling, billing, and more. Our system enhances the efficiency of healthcare providers, ensuring seamless patient care and administrative processes.
 
 ## Key Features:
 - **Appointment Management:** Schedule, reschedule, and cancel patient appointments with ease.
@@ -10,11 +10,12 @@ The **Clinic Management System** is a powerful and user-friendly solution design
 - **Prescription Management:** Create, update, and track patient prescriptions and medications.
 
 ## Technologies Used:
-- **Framework:** .NET Windows Forms (C#)
-- **Database:** SQL Server
-- **Data Access:** ADO.NET
+- **Framework:** .NET Framework (C#)
+- **Database:** Microsoft SQL Server with ADO.NET
 - **User Interface:** Windows Forms (WinForms)
-- **Development Environment:** Microsoft Visual Studio
+- **Authentication:** Custom user authentication system
+- **Architecture:** 3-tier architecture
+- **Deployment:** Standalone desktop application
 
 Explore our demo [here](https://drive.google.com/file/d/10itCDB1zV2gzugACtYsKa8pZRaXR0_Ny/view?usp=sharing) and witness the future of efficient clinic management!
 
